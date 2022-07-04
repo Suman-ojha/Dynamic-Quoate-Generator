@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arima', cursive;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #7b8fe3;
+}
+.wrapper{
+    width: 600px;
+    background: #fff;
+    border-radius: 16px;
+    padding: 30px 30px 25px;
+}
+.wrapper header{
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Arima', cursive;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1.3px;
+}
+.wrapper .content{
+    margin: 30px 0;
+}
+.content .quote-area{
+    display: flex;
+    justify-content: center;
+}
+.quote-area .quote{
+    font-size: 21px;
+    text-align: center;
+
+}
+.quote-area i{
+    font-size: 16px;
+}
+.quote-area i:first-child{
+    margin: 3px 10px 0 0;
+}
+.quote-area i:last-child{
+   display: flex; 
+    align-items: flex-end;
+   margin: 0 0 3px 10px;
+}
+.content .author{
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+.author span:first-child{
+    margin: -7px 15px 0 0;
+    font-weight: 600;
+    font-family: monospace;
+}
+.author span:last-child{
+    /* font-family: ; */
+    font-weight: 600;
+}
+.wrapper .btns{
+    border-top: 1px solid #ccc;
+}
+.btns .features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+.features ul{
+    display: flex;
+}
+.features ul li{
+    list-style: none;
+    margin: 0 5px;
+    height: 40px;
+    width: 46px;
+    color: #5670d7;
+    border: 2px solid #5670d7;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.features ul li:hover{
+    color: #fff;
+    background: #5670d7;
+}
+.features button{
+    border: none;
+    outline: none;
+    padding: 13px 22px;
+    cursor: pointer;
+    background: #7b8fe3;
+    color: #fff;
+    border-radius: 30px;
+}
+
+button.loading{
+    opacity: 0.7;
+    pointer-events: none;
+}
